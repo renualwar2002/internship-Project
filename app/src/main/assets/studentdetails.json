@@ -1,6 +1,5 @@
 {"studentdetails":[
   {
-    "standard": "B.sc(computer science)",
     "email":"test@gmail.com",
     "age": "19",
     "dob": "26.04.2003",
@@ -9,6 +8,7 @@
     "naanmudhalvanid":"au510919114006",
     "name":"P.BHARATH KUMAR",
     "collegename": "global institute of engineering and technology",
+    "standard": "B.E mechanical",
   }
 ]
 }
