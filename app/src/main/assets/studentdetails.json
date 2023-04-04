@@ -1,6 +1,5 @@
 {"studentdetails":[
   {
-    "email":"test@gmail.com",
     "age": "19",
     "dob": "26.04.2003",
     "address": "Chennai",
@@ -9,6 +8,7 @@
     "name":"P.BHARATH KUMAR",
     "collegename": "global institute of engineering and technology",
     "standard": "B.E mechanical",
+    "email":"vishnubharath52@gmail.com",
   }
 ]
 }
