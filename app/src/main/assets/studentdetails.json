@@ -1,6 +1,5 @@
 {"studentdetails":[
   {
-    "dob": "26.04.2003",
     "address": "Chennai",
     "mobilenumber": "9962416758"
     "naanmudhalvanid":"au510919114006",
@@ -9,6 +8,7 @@
     "standard": "B.E mechanical",
     "email":"vishnubharath52@gmail.com",
     "age": "21",
+    "dob": "03.04.2002",
   }
 ]
 }
