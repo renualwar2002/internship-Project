@@ -9,6 +9,17 @@
     "dob": "18.01.2000",
     "address": "Tirunelveli",
     "mobilenumber": "9384720635"
+  },
+  {
+    "naanmudhalvanid":"Roman",
+    "name":"Roman",
+    "collegename": "Government College of Engineering-Tirunelveli",
+    "standard": "B.E(computer Science and Engineering)",
+    "email":"elsong704@gmail.com",
+    "age": "23",
+    "dob": "18.01.2000",
+    "address": "Tirunelveli",
+    "mobilenumber": "9384720635"
   }
 ]
 }
