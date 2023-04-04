@@ -1,6 +1,5 @@
 {"studentdetails":[
   {
-    "address": "Chennai",
     "mobilenumber": "9962416758"
     "naanmudhalvanid":"au510919114006",
     "name":"P.BHARATH KUMAR",
@@ -9,6 +8,7 @@
     "email":"vishnubharath52@gmail.com",
     "age": "21",
     "dob": "03.04.2002",
+    "address": "gudiyattam(vellore)",
   }
 ]
 }
