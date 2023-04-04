@@ -1,14 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
+    "naanmudhalvanid":"au512719205006",
+    "name":"Elumalai",
+    "collegename": "Sri Balaji Chockalingam Engineering College",
+    "standard": "B.Tech(Information Technology)",
+    "email":"Elumalairjen@gmail.com",
+    "age": "21",
+    "dob": "19.09.2001",
     "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "mobilenumber": "9843042108"
   }
 ]
 }
