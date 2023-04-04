@@ -1,6 +1,5 @@
 {"studentdetails":[
   {
-    "collegename": "xyx arts and college",
     "standard": "B.sc(computer science)",
     "email":"test@gmail.com",
     "age": "19",
@@ -9,6 +8,7 @@
     "mobilenumber": "9962416758"
     "naanmudhalvanid":"au510919114006",
     "name":"P.BHARATH KUMAR",
+    "collegename": "global institute of engineering and technology",
   }
 ]
 }
