@@ -1,14 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
-    "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "naanmudhalvanid":"Elson",
+    "name":"Elson",
+    "collegename": "Government College of Engineering-Tirunelveli",
+    "standard": "B.E(computer Science and Engineering)",
+    "email":"elsong704@gmail.com",
+    "age": "23",
+    "dob": "18.01.2000",
+    "address": "Tirunelveli",
+    "mobilenumber": "9384720635"
   }
 ]
 }
