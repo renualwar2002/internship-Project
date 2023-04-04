@@ -1,14 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
-    "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "naanmudhalvanid":"EsakkiammalMariyappan",
+    "name":"EsakkiammalM",
+    "collegename": "Government College OF Engineering",
+    "standard": "B.E(computer science)",
+    "email":"esakkiammal@nilaapps.in.co",
+    "age": "20",
+    "dob": "08.04.2002",
+    "address": "Tirunelveli",
+    "mobilenumber": "9344072089"
   }
 ]
 }
