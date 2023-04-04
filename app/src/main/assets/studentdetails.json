@@ -1,14 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
-    "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "naanmudhalvanid":"au113220031068",
+    "name":"Lekha",
+    "collegename": "Velammal Engineering College",
+    "standard": "BE(Computer Science and Engineering)",
+    "email":"lekhaloganathan29@gmail.com",
+    "age": "20",
+    "dob": "29.08.2002",
+    "address": "No 6/81 KK Flats, 4th street,2nd main roadSadasivam nagar, Madipakkam,Chennai-600091",
+    "mobilenumber": "9884583217"
   }
 ]
 }
