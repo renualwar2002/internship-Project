@@ -1,6 +1,5 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
     "name":"Test",
     "collegename": "xyx arts and college",
     "standard": "B.sc(computer science)",
@@ -9,6 +8,7 @@
     "dob": "26.04.2003",
     "address": "Chennai",
     "mobilenumber": "9962416758"
+    "naanmudhalvanid":"au510919114006",
   }
 ]
 }
