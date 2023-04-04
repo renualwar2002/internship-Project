@@ -1,6 +1,5 @@
 {"studentdetails":[
   {
-    "name":"Test",
     "collegename": "xyx arts and college",
     "standard": "B.sc(computer science)",
     "email":"test@gmail.com",
@@ -9,6 +8,7 @@
     "address": "Chennai",
     "mobilenumber": "9962416758"
     "naanmudhalvanid":"au510919114006",
+    "name":"P.BHARATH KUMAR",
   }
 ]
 }
