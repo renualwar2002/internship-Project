@@ -1,4 +1,4 @@
-{"studentdetails":[
+{"studentdetails": [
   {
     "naanmudhalvanid":"Abarna",
     "name":"Abarna P",
@@ -9,6 +9,16 @@
     "dob": "10.12.2001",
     "address": "105/1,North car street,Tiruchendur",
     "mobilenumber": "7708880682"
+  },{
+    "naanmudhalvanid":"Abi",
+    "name":"Abi",
+    "collegename": "Government college of Engineering,Tirunelveli",
+    "standard": "B.E(computer science and Engineering)",
+    "email":"perumalabi@gmail.com",
+    "age": "20",
+    "dob": "10.12.2002",
+    "address": "104/1,North car street,Tiruchendur",
+    "mobilenumber": "7708880282"
   }
 ]
 }

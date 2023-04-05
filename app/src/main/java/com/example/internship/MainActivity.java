@@ -2,9 +2,13 @@ package com.example.internship;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -44,6 +48,23 @@ public class MainActivity extends AppCompatActivity {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                    Intent intent=new Intent(MainActivity.this,MainActivity2.class);
+                    String item = adapterView.getItemAtPosition(i).toString();
+                    intent.putExtra("name",item);
+                    startActivity(intent);
+                    Toast.makeText(MainActivity.this, item+" clicked",Toast.LENGTH_SHORT).show();
+                   // intent=new Intent(MainActivity.this,MainActivity3.class);
+                   // item = adapterView.getItemAtPosition(i).toString();
+                    //intent.putExtra("name",item);
+                   // startActivity(intent);
+
+            }
+        });
+
     }
 
     public String loadJsonFile() throws IOException {

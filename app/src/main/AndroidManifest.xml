@@ -12,6 +12,18 @@
         android:theme="@style/Theme.Internship"
         tools:targetApi="31">
         <activity
+            android:name=".Contact"
+            android:exported="false" />
+        <activity
+            android:name=".Academic"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

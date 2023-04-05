@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dip"
-    android:textSize="16dip"
-    android:textColor="@color/black"
-    android:textStyle="bold" >
+    android:textSize="25dp"
+    android:textColor="@color/blue"
+    android:textAlignment="center"
+    android:textStyle="italic"
+
+    >
 </TextView>

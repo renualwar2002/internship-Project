@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/img_3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="219dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="382dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:text="TextView" />
+
+    <Button
+        android:layout_width="332dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="276dp"
+        android:background="@color/white"
+        android:id="@+id/about"
+        android:hint="ABOUT ME"
+        android:textColor="#FFA500" />
+
+    <Button
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="207dp"
+        android:background="@color/white"
+        android:id="@+id/academic"
+        android:hint="ACADEMICS"
+        android:textColor="#FFA500" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="138dp"
+        android:background="@color/white"
+        android:id="@+id/contact"
+        android:hint="CONTACT ME"
+        android:textColor="#FFA500" />
+
+    <View
+        android:layout_width="320dp"
+        android:layout_height="2dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="106dp"
+        android:background="#E91E63" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="51dp"
+        android:text="Nila Apps Internship 2023"
+        android:textColor="@color/black" />
+</RelativeLayout>
