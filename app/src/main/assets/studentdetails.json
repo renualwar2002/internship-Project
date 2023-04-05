@@ -1,14 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
+    "naanmudhalvanid":"3",
+    "name":"Mithrha",
+    "collegename": "MIT college",
+    "standard": "B.E(ECE)",
+    "email":"mithrharamakrishnan@gmail.com",
+    "age": "21",
+    "dob": "10.06.2001",
     "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "mobilenumber": "9361370060"
   }
 ]
 }
