@@ -1,14 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
-    "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "naanmudhalvanid":"au620219104006",
+    "name":"Preamkumar",
+    "collegename": "Annai Mathammal Sheela Engineering College",
+    "standard": "B.E(computer science engineering)",
+    "email":"Preamkumarprp@gmail.com",
+    "age": "21",
+    "dob": "22.03.2002",
+    "address": "Trichy",
+    "mobilenumber": "9361531852"
   }
 ]
 }
