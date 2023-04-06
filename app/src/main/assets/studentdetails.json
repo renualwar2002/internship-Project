@@ -1,14 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
-    "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "naanmudhalvanid":"au510919114306",
+    "name":"mohan",
+    "collegename": "Global Institute of Engineering and Technology",
+    "standard": "B.E(Mechanical Engineering)",
+    "email":"mohandmerpg@gmail.com",
+    "age": "23",
+    "dob": "02.08.2000",
+    "address": "no:38 new park town, gandhi nagar,gudiyatham",
+    "mobilenumber": "8667645899"
   }
 ]
 }
