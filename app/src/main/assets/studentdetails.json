@@ -1,14 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
+    "naanmudhalvanid":"310119205031",
+    "name":"suresh kumar",
+    "collegename": "Anand institute of higher technology",
+    "standard": "B.tech(information technology)",
+    "email":"duraisuresh2002@gmail.com",
+    "age": "20",
+    "dob": "22.06.2002",
     "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "mobilenumber": "9361741016"
   }
 ]
 }
