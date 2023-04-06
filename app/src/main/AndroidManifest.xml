@@ -12,6 +12,22 @@
         android:theme="@style/Theme.Internship"
         tools:targetApi="31">
         <activity
+            android:name=".contectessai"
+            android:exported="false"
+            android:parentActivityName=".MainActivity2"/>
+        <activity
+            android:name=".academicessai"
+            android:exported="false"
+            android:parentActivityName=".MainActivity2"/>
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false"
+            android:parentActivityName=".MainActivity2"/>
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

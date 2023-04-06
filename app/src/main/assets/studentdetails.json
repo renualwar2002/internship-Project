@@ -4,11 +4,23 @@
     "name":"Esakkiammal",
     "collegename": "Government College of Engineering",
     "standard": "B.E(computer science)",
-    "email":"esa",
-    "age": "19",
-    "dob": "26.04.2003",
+    "email":"esai@gmail.com",
+    "age": "20",
+    "dob": "08.04.2002",
     "address": "Chennai",
     "mobilenumber": "9962416758"
+  },{
+    "naanmudhalvanid":"CherieRamachanran",
+    "name":"Cherie",
+    "collegename": "Government College of Engineering",
+    "standard": "B.E(Mechanical)",
+    "email":"cherie@gmail.com",
+    "age": "25",
+    "dob": "26.04.2000",
+    "address": "Tirunelveli",
+    "mobilenumber": "9344072089"
   }
+
 ]
+
 }
