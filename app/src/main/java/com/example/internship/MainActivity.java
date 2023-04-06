@@ -33,8 +33,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        int[] imageId = {R.drawable.cover1,R.drawable.cover2};
 
         listview=(ListView) findViewById(R.id.mobile_list);
+
 
         try {
             JSONObject jsonObject=new JSONObject(loadJsonFile());
@@ -82,8 +84,13 @@ public class MainActivity extends AppCompatActivity {
                     Intent intent=new Intent(MainActivity.this,Profile.class);
 //                    Intent intentAbout=new Intent(MainActivity.this,About.class);
                     String item = adapterView.getItemAtPosition(i).toString();
+//                    int id= (int) adapterView.getItemAtPosition(i);
+//                    Object obj=adapterView.getItemAtPosition(i);
 //                    String password = adapterView.getItemAtPosition(i).toString();
                     intent.putExtra("name",item);
+                    intent.putExtra("imageid",imageId[i]);
+//                intent.putExtra("imageid",id);
+//                intent.putExtra("key", (Bundle) obj);
 //                    intentAbout.putExtra("email", email);
                     startActivity(intent);
 //                    startActivity(intentAbout);

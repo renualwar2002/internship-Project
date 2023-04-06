@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".Academics">
@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/profileName"
         android:gravity="center"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="50dp"
         android:orientation="vertical">
 
         <TextView
@@ -41,36 +41,25 @@
             android:background="#99E45D15"
             android:padding="20dp"
             android:textColor="#FF000000"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textAlignment="center"/>
 
         <TextView
             android:id="@+id/std"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:background="#99E45D15"
             android:padding="20dp"
             android:textColor="#FF000000"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:textAlignment="center"/>
 
 
     </LinearLayout>
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="320dp"
-        android:layout_height="2dp"
-        android:layout_below="@id/linear"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="100dp"
-        android:background="#FF000000" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/view"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="15dp"
-        android:color="#FF000000"
-        android:text="@string/footer" />
+    <include
+        android:id="@+id/footer"
+        layout="@layout/footer"
+        />
 </RelativeLayout>

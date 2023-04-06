@@ -1,5 +1,6 @@
 {"studentdetails":[
   {
+    "image": "R.drawable.cover1",
     "naanmudhalvanid":"ID4321",
     "name":"Elson",
     "collegename": "Government College of Engineering-Tirunelveli",
@@ -11,6 +12,7 @@
     "mobilenumber": "9384720635"
   },
   {
+    "image": "R.drawable.cover2",
     "naanmudhalvanid":"ID1234",
     "name":"Roman",
     "collegename": "Government College of Engineering-Tirunelveli",

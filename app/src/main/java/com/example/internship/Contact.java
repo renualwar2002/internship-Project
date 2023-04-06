@@ -29,8 +29,11 @@ public class Contact extends AppCompatActivity {
         emailid=findViewById(R.id.email);
         mobileNo=findViewById(R.id.mobileno);
         profilename=findViewById(R.id.profileName);
+        ImageView profileImg1=findViewById(R.id.profileImg);
         Intent intent=getIntent();
         String namecheck=intent.getStringExtra("name");
+        int img=intent.getIntExtra("imageid",0);
+        profileImg1.setImageResource(img);
         try {
             JSONObject jsonObject = new JSONObject(loadJsonFile());
             JSONArray jsonArray = jsonObject.getJSONArray("studentdetails");
@@ -48,7 +51,7 @@ public class Contact extends AppCompatActivity {
                     String email = obj.getString("email");
                     String mobileno= obj.getString("mobilenumber");
                     emailid.setText("Email-Id:  " +email);
-                    profilename.setText(Name);
+                    profilename.setText(Name+" 's Contact");
                     mobileNo.setText("Mobile Number:  "+mobileno);
                     break;
                 }

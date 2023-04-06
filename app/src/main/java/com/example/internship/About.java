@@ -29,8 +29,11 @@ public class About extends AppCompatActivity {
         id=findViewById(R.id.idno);
         dat=findViewById(R.id.dob);
         profilename=findViewById(R.id.profileName);
+        ImageView profileImg1=findViewById(R.id.profileImg);
         Intent intent=getIntent();
         String namecheck=intent.getStringExtra("name");
+        int img=intent.getIntExtra("imageid",0);
+        profileImg1.setImageResource(img);
         try {
             JSONObject jsonObject = new JSONObject(loadJsonFile());
             JSONArray jsonArray = jsonObject.getJSONArray("studentdetails");
@@ -49,7 +52,7 @@ public class About extends AppCompatActivity {
                     String date= obj.getString("dob");
                     id.setText("NaanMudvalanid:  " +idno);
                     name.setText("Name:  "+Name);
-                    profilename.setText(Name);
+                    profilename.setText(Name+ "'s About");
                     dat.setText("Date of Birth:  "+date);
                     break;
                 }

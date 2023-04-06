@@ -6,6 +6,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -16,6 +17,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.internship.databinding.ActivityMainBinding;
+
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -25,22 +29,34 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+
 public class Profile extends AppCompatActivity {
 
     ListView listview;
+//    ActivityMainBinding binding;
+//    ActivityUserBinding binding1;
+
 
     @Override
-    protected void onCreate(Bundle savedInstance) {
+    protected void onCreate(Bundle savedInstanceState) {
 
-        super.onCreate(savedInstance);
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.profile);
+//        binding = ActivityMainBinding.inflate(getLayoutInflater());
+//        setContentView(binding.getRoot());
+        ImageView profileImg=(ImageView)findViewById(R.id.profileImg);
         Button about = (Button) findViewById(R.id.about);
         Button academics = (Button) findViewById(R.id.academics);
         Button contact = (Button) findViewById(R.id.contact);
         TextView profileName = (TextView) findViewById(R.id.profileName);
         Intent intent = getIntent();
         String name = intent.getStringExtra("name");
+        int img=intent.getIntExtra("imageid",R.drawable.cover1);
+//        Bundle imm=intent.getBundleExtra("key");
+//        System.out.println(imm.getString(name));
         profileName.setText(name);
+//        int imageid = intent.getIntExtra("img",R.drawable.cover2);
+        profileImg.setImageResource(img);
         // calling the action bar
         ActionBar actionBar = getSupportActionBar();
 
@@ -53,6 +69,7 @@ public class Profile extends AppCompatActivity {
 
                 Intent intent = new Intent(Profile.this, About.class);
                 intent.putExtra("name", name);
+                intent.putExtra("imageid",img);
                 startActivity(intent);
             }
         });
@@ -63,6 +80,7 @@ public class Profile extends AppCompatActivity {
 
                 Intent intent = new Intent(Profile.this, Academics.class);
                 intent.putExtra("name", name);
+                intent.putExtra("imageid",img);
                 startActivity(intent);
             }
         });
@@ -73,6 +91,7 @@ public class Profile extends AppCompatActivity {
 
                 Intent intent = new Intent(Profile.this, Contact.class);
                 intent.putExtra("name", name);
+                intent.putExtra("imageid",img);
                 startActivity(intent);
             }
         });

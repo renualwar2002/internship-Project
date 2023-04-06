@@ -5,6 +5,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -21,6 +22,7 @@ import java.util.ArrayList;
 
 public class Academics extends AppCompatActivity {
     TextView clg,name,std,profilename;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,8 +31,11 @@ public class Academics extends AppCompatActivity {
         clg=findViewById(R.id.clg);
         std=findViewById(R.id.std);
         profilename=findViewById(R.id.profileName);
+        ImageView profileImg1=(ImageView)findViewById(R.id.profileImg);
         Intent intent=getIntent();
         String namecheck=intent.getStringExtra("name");
+        int img=intent.getIntExtra("imageid",0);
+        profileImg1.setImageResource(img);
         try {
             JSONObject jsonObject = new JSONObject(loadJsonFile());
             JSONArray jsonArray = jsonObject.getJSONArray("studentdetails");
@@ -48,8 +53,7 @@ public class Academics extends AppCompatActivity {
                     String college = obj.getString("collegename");
                     String standard= obj.getString("standard");
                     clg.setText("College Name:  " +college);
-//                    name.setText("Name:"+Name);
-                    profilename.setText(Name);
+                    profilename.setText(Name+" 's Academics");
                     std.setText("Standard:  "+standard);
                     break;
                 }
