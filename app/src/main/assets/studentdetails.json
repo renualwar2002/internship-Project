@@ -1,13 +1,13 @@
 {"studentdetails":[
   {
     "naanmudhalvanid":"NQT22051220413",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
+    "name":"Priyadharshini",
+    "collegename": "Government College of Engineering, Salem",
+    "standard": "Computer Science and Engineering",
     "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
-    "address": "Chennai",
+    "age": "21",
+    "dob": "05.01.2002",
+    "address": "Salem",
     "mobilenumber": "9962416758"
   }
 ]
