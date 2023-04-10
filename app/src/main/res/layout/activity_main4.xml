@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+    <Button
+        android:id="@+id/butt1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Mail-lekhaloganathan29@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <Button
+        android:id="@+id/butt2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Linkedin-lekhaloganathan"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/butt3"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="github-lekhacse"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+</LinearLayout>
