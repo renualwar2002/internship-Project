@@ -1,6 +1,7 @@
 package com.example.internship;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -19,7 +20,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
     ListView listview;
     List<String> listViewValues;
     ArrayList<String> listviewdetails = new ArrayList<>();
@@ -30,17 +30,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listview=(ListView) findViewById(R.id.mobile_list);
+        listview = (ListView) findViewById(R.id.mobile_list);
 
         try {
-            JSONObject jsonObject=new JSONObject(loadJsonFile());
-            jsonArray=jsonObject.getJSONArray("studentdetails");
+            JSONObject jsonObject = new JSONObject(loadJsonFile());
+            jsonArray = jsonObject.getJSONArray("studentdetails");
 
             listViewValues = new ArrayList<String>();
-            for(int i=0; i<jsonArray.length();i++)
-            {
-                JSONObject obj=jsonArray.getJSONObject(i);
-                String name=obj.getString("name");
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                String name = obj.getString("name");
                 listViewValues.add(name);
             }
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.displayname, listViewValues);
@@ -51,11 +50,11 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                     try {
-                        JSONObject obj=jsonArray.getJSONObject(i);
-                        String name=obj.getString("name");
-                        String age=obj.getString("age");
-                        String address=obj.getString("address");
-                        String email=obj.getString("email");
+                        JSONObject obj = jsonArray.getJSONObject(i);
+                        String name = obj.getString("name");
+                        String age = obj.getString("age");
+                        String address = obj.getString("address");
+                        String email = obj.getString("email");
 
                         Intent intent = new Intent(MainActivity.this, StudentDetailsActivity.class);
                         intent.putExtra("name", name);
@@ -77,13 +76,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public String loadJsonFile() throws IOException {
-        String json=null;
-        InputStream inputStream=this.getAssets().open("studentdetails.json");
-        int size=inputStream.available();
-        byte[] byteArray=new byte[size];
+        String json = null;
+        InputStream inputStream = this.getAssets().open("studentdetails.json");
+        int size = inputStream.available();
+        byte[] byteArray = new byte[size];
         inputStream.read(byteArray);
         inputStream.close();
-        json=new String(byteArray, "UTF-8");
+        json = new String(byteArray, "UTF-8");
         return json;
     }
 }

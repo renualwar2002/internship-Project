@@ -1,36 +1,37 @@
-{"studentdetails":[
-  {
-    "naanmudhalvanid":"auES19CS63",
-    "name":"Santhosh E",
-    "collegename": "Erode Sengunthar Engineering college",
-    "standard": "B.E(computer science and Engineering)",
-    "email":"derickprince744@gmail.com",
-    "age": "21",
-    "dob": "16.09.2001",
-    "address": "Erode",
-    "mobilenumber": "7448404587"
-  },
-  {
-    "naanmudhalvanid":"auES19CS47",
-    "name":"Nelson J",
-    "collegename": "Erode Sengunthar Engineering college",
-    "standard": "B.E(computer science and Engineering)",
-    "email":"nelsonjeeva@gmail.com",
-    "age": "21",
-    "dob": "16.09.2001",
-    "address": "Erode",
-    "mobilenumber": "9876543210"
-  },
-  {
-    "naanmudhalvanid":"auES19CS48",
-    "name":"Nithish Kumar S",
-    "collegename": "Erode Sengunthar Engineering college",
-    "standard": "B.E(computer science and Engineering)",
-    "email":"nithishkumar@gmail.com",
-    "age": "21",
-    "dob": "16.09.2001",
-    "address": "Erode",
-    "mobilenumber": "9876543210"
-  }
-]
+{
+  "studentdetails": [
+    {
+      "naanmudhalvanid": "auES19CS63",
+      "name": "Santhosh E",
+      "collegename": "Erode Sengunthar Engineering college",
+      "standard": "B.E(computer science and Engineering)",
+      "email": "derickprince744@gmail.com",
+      "age": "21",
+      "dob": "16.09.2001",
+      "address": "Erode",
+      "mobilenumber": "7448404587"
+    },
+    {
+      "naanmudhalvanid": "auES19CS47",
+      "name": "Nelson J",
+      "collegename": "Erode Sengunthar Engineering college",
+      "standard": "B.E(computer science and Engineering)",
+      "email": "nelsonjeeva@gmail.com",
+      "age": "21",
+      "dob": "16.09.2001",
+      "address": "Erode",
+      "mobilenumber": "9876543210"
+    },
+    {
+      "naanmudhalvanid": "auES19CS48",
+      "name": "Nithish Kumar S",
+      "collegename": "Erode Sengunthar Engineering college",
+      "standard": "B.E(computer science and Engineering)",
+      "email": "nithishkumar@gmail.com",
+      "age": "21",
+      "dob": "16.09.2001",
+      "address": "Erode",
+      "mobilenumber": "9876543210"
+    }
+  ]
 }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="16dp"
-    android:gravity="center_horizontal">
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
 
     <ImageView
         android:id="@+id/student_image"
@@ -22,29 +22,29 @@
         android:id="@+id/student_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textStyle="bold"
-        android:layout_marginTop="16dp"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/student_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:textAppearanceMedium" />
 
     <TextView
         android:id="@+id/student_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:textAppearanceMedium" />
 
     <TextView
         android:id="@+id/student_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceMedium"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:textAppearance="?android:textAppearanceMedium" />
 
 </LinearLayout>
