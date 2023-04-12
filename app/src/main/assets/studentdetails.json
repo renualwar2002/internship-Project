@@ -1,13 +1,24 @@
 {"studentdetails":[
   {
     "naanmudhalvanid":"au723919104010",
-    "name":"Test",
+    "name":"Test 1",
     "collegename": "xyx arts and college",
     "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
+    "email":"test1@gmail.com",
     "age": "19",
     "dob": "26.04.2003",
     "address": "Chennai",
+    "mobilenumber": "9962416758"
+  },
+  {
+    "naanmudhalvanid":"au723919104011",
+    "name":"Test 2",
+    "collegename": "abc arts and college",
+    "standard": "B.sc(computer science)",
+    "email":"test2@gmail.com",
+    "age": "19",
+    "dob": "26.04.2003",
+    "address": "Madurai",
     "mobilenumber": "9962416758"
   }
 ]
