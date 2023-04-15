@@ -3,18 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    android:background="@drawable/bg">
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
 
     <ImageView
         android:id="@+id/img"
-        android:layout_width="400dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/hello"/>
-
+        android:src="@drawable/hello" />
 
     <Button
         android:id="@+id/b1"
+        android:background="@drawable/rounded_rectangle"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:textColor="@color/black"
@@ -27,12 +28,14 @@
         android:layout_height="150dp"
         android:textColor="@color/black"
         android:text="Academics"
+        android:background="@drawable/image"
         android:textSize="50dp"/>
 
     <Button
         android:id="@+id/b3"
         android:layout_width="match_parent"
         android:layout_height="150dp"
+        android:background="@drawable/rounded_rectangle"
         android:textColor="@color/black"
         android:text="Contact me"
         android:textSize="50dp"/>

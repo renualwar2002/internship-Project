@@ -10,7 +10,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView image1;
+
+    ImageView img1;
     Button button1,button2,button3;
 
     @Override
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        image1=findViewById(R.id.img);
+        img1=findViewById(R.id.img);
         button1=findViewById(R.id.b1);
         button2=findViewById(R.id.b2);
         button3=findViewById(R.id.b3);

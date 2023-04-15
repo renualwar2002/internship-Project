@@ -1,34 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2"
-    android:orientation="vertical">
+    android:background="@drawable/bg12"
+    android:orientation="vertical" >
 
     <Button
-        android:id="@+id/bu1"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="150dp"
-        android:textColor="@color/black"
-        android:text="Name-Lekha"
-        android:textSize="50dp"/>
+        android:background="@drawable/image"
+        android:text="Name: Lekha"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
 
     <Button
-        android:id="@+id/bu2"
-        android:layout_below="@id/bu1"
-        android:layout_width="match_parent"
+        android:layout_width="276dp"
         android:layout_height="150dp"
-        android:textColor="@color/black"
-        android:text="Year-III"
-        android:textSize="50dp"/>
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/image"
+        android:text="Year: III"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
 
     <Button
-        android:id="@+id/bu3"
-        android:layout_width="match_parent"
+        android:layout_width="276dp"
         android:layout_height="150dp"
-        android:textColor="@color/black"
-        android:text="College-VEC"
-        android:textSize="50dp"/>
+        android:layout_marginTop="30dp"
+        android:background="@drawable/image"
+        android:text="College:VEC"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttonofxml2"
+        android:layout_width="276dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/image"
+        android:text="Go back"
+        android:textAllCaps="false"
+        android:textSize="30dp" />
 </LinearLayout>
