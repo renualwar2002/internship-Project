@@ -4,8 +4,9 @@
     android:id="@+id/label"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="10dip"
-    android:textSize="16dip"
+    android:padding="10dp"
+    android:gravity="center"
+    android:textSize="16sp"
     android:textColor="@color/black"
     android:textStyle="bold" >
 </TextView>

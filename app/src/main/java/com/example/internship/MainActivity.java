@@ -2,14 +2,15 @@ package com.example.internship;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -39,9 +40,20 @@ public class MainActivity extends AppCompatActivity {
             }
             ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.displayname, listViewValues);
             listview.setAdapter(adapter);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+            listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    Intent intent = new Intent(MainActivity.this, Info.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putString("name", listViewValues.get(i));
+                    intent.putExtras(bundle);
+                    startActivity(intent);
+                }
+            });
+
+
+
+        } catch (JSONException | IOException e) {
             e.printStackTrace();
         }
     }

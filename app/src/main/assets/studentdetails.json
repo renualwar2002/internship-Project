@@ -4,9 +4,53 @@
     "name":"Priyadharshini",
     "collegename": "Government College of Engineering, Salem",
     "standard": "Computer Science and Engineering",
-    "email":"test@gmail.com",
+    "email":"dharshini@gmail.com",
     "age": "21",
+    "dob": "04.01.2002",
+    "address": "Salem",
+    "mobilenumber": "9962416758"
+  },
+  {
+    "naanmudhalvanid":"NQT22051220414",
+    "name":"Ted Mosby",
+    "collegename": "Wesleyan University",
+    "standard": "Architect",
+    "email":"tedMosby@gmail.com",
+    "age": "28",
+    "dob": "06.01.2000",
+    "address": "Newyork",
+    "mobilenumber": "9962416758"
+  },
+  {
+    "naanmudhalvanid":"NQT22051220415",
+    "name":"Tracy Mcconnell",
+    "collegename": "Columbia University",
+    "standard": "Economics",
+    "email":"tracy@gmail.com",
+    "age": "26",
     "dob": "05.01.2002",
+    "address": "Salem",
+    "mobilenumber": "9962416758"
+  },
+  {
+    "naanmudhalvanid":"NQT22051220416",
+    "name":"Barney Stinston",
+    "collegename": "Harvard University",
+    "standard": "Please",
+    "email":"barney@gmail.com",
+    "age": "29",
+    "dob": "30.02.1996",
+    "address": "Salem",
+    "mobilenumber": "9962416758"
+  },
+  {
+    "naanmudhalvanid":"NQT22051220413",
+    "name":"Robin",
+    "collegename": "Canada University",
+    "standard": "News Host",
+    "email":"robin@gmail.com",
+    "age": "27",
+    "dob": "01.01.1995",
     "address": "Salem",
     "mobilenumber": "9962416758"
   }
