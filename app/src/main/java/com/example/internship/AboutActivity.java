@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.os.Bundle;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class AboutActivity extends AppCompatActivity {
@@ -21,5 +22,8 @@ public class AboutActivity extends AppCompatActivity {
 		id.setText(getIntent().getStringExtra("id"));
 		TextView dob = findViewById(R.id.dob);
 		dob.setText(getIntent().getStringExtra("dob"));
+		LinearLayout footer = findViewById(R.id.footerLayout);
+		TextView back = footer.findViewById(R.id.back);
+		back.setOnClickListener(view -> finish());
 	}
 }

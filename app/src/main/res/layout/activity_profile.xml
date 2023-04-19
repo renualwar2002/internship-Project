@@ -51,6 +51,6 @@
                     android:id="@+id/contact"/>
             </TableRow>
         </TableLayout>
-        <include layout="@layout/footerlayout" />
+        <include layout="@layout/footerlayout" android:id="@+id/footerLayout" />
     </LinearLayout>
 </ScrollView>

@@ -6,6 +6,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class ProfileActivity extends AppCompatActivity {
@@ -52,5 +53,8 @@ TextView nameTxt;
 			contactIntent.putExtra("address",address);
 			startActivity(contactIntent);
 		});
+		LinearLayout footer = findViewById(R.id.footerLayout);
+		TextView back = footer.findViewById(R.id.back);
+		back.setOnClickListener(view -> finish());
 	}
 }

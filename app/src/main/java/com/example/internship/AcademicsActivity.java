@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.os.Bundle;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class AcademicsActivity extends AppCompatActivity {
@@ -19,5 +20,8 @@ public class AcademicsActivity extends AppCompatActivity {
 		college.setText(getIntent().getStringExtra("college"));
 		TextView standard = findViewById(R.id.standard);
 		standard.setText(getIntent().getStringExtra("std"));
+		LinearLayout footer = findViewById(R.id.footerLayout);
+		TextView back = footer.findViewById(R.id.back);
+		back.setOnClickListener(view -> finish());
 	}
 }

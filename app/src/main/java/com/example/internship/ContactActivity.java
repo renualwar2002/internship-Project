@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.os.Bundle;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class ContactActivity extends AppCompatActivity {
@@ -21,5 +22,8 @@ public class ContactActivity extends AppCompatActivity {
 		mobile.setText(getIntent().getStringExtra("mobile"));
 		TextView address = findViewById(R.id.address);
 		address.setText(getIntent().getStringExtra("address"));
+		LinearLayout footer = findViewById(R.id.footerLayout);
+		TextView back = footer.findViewById(R.id.back);
+		back.setOnClickListener(view -> finish());
 	}
 }

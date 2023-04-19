@@ -1,24 +1,24 @@
 {"studentdetails":[
   {
     "naanmudhalvanid":"au723919104010",
-    "name":"Test 1",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test1@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
-    "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "name":"Vadivelan",
+    "collegename": "Arjun College of Technology",
+    "standard": "B.E.(Computer Science and Engineering)",
+    "email":"vadivelan2002@gmail.com",
+    "age": "20",
+    "dob": "27.09.2002",
+    "address": "Virudhunagar",
+    "mobilenumber": "9150505990"
   },
   {
-    "naanmudhalvanid":"au723919104011",
-    "name":"Test 2",
-    "collegename": "abc arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test2@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
-    "address": "Madurai",
+    "naanmudhalvanid":"au723919104005",
+    "name":"Muthukrishnan",
+    "collegename": "Arjun College of Technology",
+    "standard": "B.E.(Computer Science and Engineering)",
+    "email":"mk7239@gmail.com",
+    "age": "21",
+    "dob": "05.01.2002",
+    "address": "Sivaganga",
     "mobilenumber": "9962416758"
   }
 ]
