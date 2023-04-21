@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-
     ImageView img1;
     Button button1,button2,button3;
 

@@ -24,7 +24,7 @@ public class MainActivity4 extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(MainActivity4.this, MainActivity.class);
+                Intent intent = new Intent(MainActivity4.this, MainActivity3.class);
                 // Start the MainActivity
                 startActivity(intent);
 
