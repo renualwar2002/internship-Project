@@ -1,17 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"NAAN MUDHALVAN ID :     au211519106170",
-    "name":"NAME :     Thamarai Kannan G",
-    "collegename": "COLLEGE NAME :     Panimalar Institute of Technology",
-    "degree": "DEGREE :     B.E",
-    "department": "DEPARTMENT :     ECE",
-    "year": "YEAR :     Final Year",
-    "email":"EMAIL ID :     gtkannan2311@gmail.com",
-    "age": "AGE :     22",
-    "dob": "DOB :     23.11.2000",
-    "address": "LOCATION :     Chennai",
-    "mobilenumber": "MOBILE NUMBER :     7502070705",
-    "Linkedin": "LINKEDIN :     www.linkedin.com/in/thamarai-kannan-g272"
+    "naanmudhalvanid":"au211519106170",
+    "name":"Thamarai Kannan G",
+    "collegename": "xyx arts and college",
+    "standard": "B.sc(computer science)",
+    "email":"test@gmail.com",
+    "age": "19",
+    "dob": "26.04.2003",
+    "address": "Chennai",
+    "mobilenumber": "9962416758"
   }
 ]
 }
