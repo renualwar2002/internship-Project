@@ -1,10 +1,16 @@
 package com.example.internship;
 
+import android.content.Context;
+import android.content.Intent;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -15,45 +21,26 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class MainActivity extends AppCompatActivity {
 
-    ListView listview;
-    List<String> listViewValues;
-    ArrayList<String> listviewdetails = new ArrayList<>();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listview=(ListView) findViewById(R.id.mobile_list);
-
-        try {
-            JSONObject jsonObject=new JSONObject(loadJsonFile());
-            JSONArray jsonArray=jsonObject.getJSONArray("studentdetails");
-            listViewValues = new ArrayList<String>();
-            for(int i=0; i<jsonArray.length();i++)
-            {
-                JSONObject obj=jsonArray.getJSONObject(i);
-                String name=obj.getString("name");
-                listViewValues.add(name);
+        Button button = findViewById(R.id.next_page);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, AboutMe.class));
             }
-            ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.displayname, listViewValues);
-            listview.setAdapter(adapter);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+        });
 
-    public String loadJsonFile() throws IOException {
-        String json=null;
-        InputStream inputStream=this.getAssets().open("studentdetails.json");
-        int size=inputStream.available();
-        byte[] byteArray=new byte[size];
-        inputStream.read(byteArray);
-        inputStream.close();
-        json=new String(byteArray, "UTF-8");
-        return json;
+
+
+
     }
 }

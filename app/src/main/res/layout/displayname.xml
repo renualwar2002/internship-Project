@@ -7,5 +7,8 @@
     android:padding="10dip"
     android:textSize="16dip"
     android:textColor="@color/black"
-    android:textStyle="bold" >
+    android:textStyle="bold" 
+    android:gravity="center"
+>
+    
 </TextView>

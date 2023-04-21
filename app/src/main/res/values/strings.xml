@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Internship</string>
+    <string name="thamarai_kannan_g">Thamarai Kannan G</string>
+    <string name="aboutme">ABOUT ME</string>
+    <string name="academics">ACADEMICS</string>
+    <string name="contact_me">CONTACT</string>
 </resources>
