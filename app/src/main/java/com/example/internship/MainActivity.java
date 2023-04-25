@@ -1,7 +1,6 @@
 package com.example.internship;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -9,11 +8,10 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-
+import com.example.internship.R;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -74,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-
     public String loadJsonFile() throws IOException {
         String json = null;
         InputStream inputStream = this.getAssets().open("studentdetails.json");
@@ -84,5 +81,11 @@ public class MainActivity extends AppCompatActivity {
         inputStream.close();
         json = new String(byteArray, "UTF-8");
         return json;
+    }
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(MainActivity.this, MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 }

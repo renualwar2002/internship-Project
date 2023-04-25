@@ -1,19 +1,14 @@
 package com.example.internship;
 
-
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-
 public class StudentDetailsActivity extends AppCompatActivity {
-
     TextView tvName, tvAge, tvAddress, tvEmail;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +31,6 @@ public class StudentDetailsActivity extends AppCompatActivity {
         tvAddress.setText("Address: " + address);
         tvEmail.setText("Email: " + email);
     }
-
     public class MainActivity extends AppCompatActivity {
 
         @Override
@@ -49,8 +43,6 @@ public class StudentDetailsActivity extends AppCompatActivity {
                 actionBar.setDisplayHomeAsUpEnabled(true);
             }
         }
-
-
         @Override
         public boolean onOptionsItemSelected(MenuItem item) {
             int id = item.getItemId();
@@ -61,6 +53,4 @@ public class StudentDetailsActivity extends AppCompatActivity {
             return super.onOptionsItemSelected(item);
         }
     }
-
-
 }

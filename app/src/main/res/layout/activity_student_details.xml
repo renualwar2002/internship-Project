@@ -13,7 +13,7 @@
         android:id="@+id/student_image"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:contentDescription="Student Image"
+        android:contentDescription="@string/student_image"
         android:src="@drawable/student1"
         app:srcCompat="@drawable/student1"
         tools:srcCompat="@drawable/student1" />
@@ -46,5 +46,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:textAppearance="?android:textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:onClick="onBackButtonClicked" />
 
 </LinearLayout>
