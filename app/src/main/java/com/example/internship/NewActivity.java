@@ -36,6 +36,8 @@ public class NewActivity extends AppCompatActivity {
    protected void onCreate(Bundle savedInstanceState) {
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_new);
+      getSupportActionBar().setTitle("ABOUT ME");
+      getSupportActionBar().setDisplayHomeAsUpEnabled(true);
       listview = (ListView) findViewById(R.id.mobile_list);
       try {
          JSONObject jsonObject = new JSONObject(loadJsonFile());

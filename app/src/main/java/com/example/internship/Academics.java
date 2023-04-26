@@ -38,6 +38,8 @@ public class Academics extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_academics);
+	getSupportActionBar().setTitle("ACADEMICS");
+	getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         listview = (ListView) findViewById(R.id.mobile_list);
         try {
             JSONObject jsonObject = new JSONObject(loadJsonFile());

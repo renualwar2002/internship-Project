@@ -25,6 +25,8 @@ public class AboutMe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_me);
+	getSupportActionBar().setTitle("PROFILE");
+	getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         Button button = findViewById(R.id.new_page);
         button.setOnClickListener(new View.OnClickListener() {
