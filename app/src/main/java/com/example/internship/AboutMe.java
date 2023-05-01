@@ -1,8 +1,13 @@
 package com.example.internship;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -12,6 +17,7 @@ import java.io.InputStream;
 
 public class AboutMe extends AppCompatActivity {
     TextView about,id,username,dob;
+    ImageButton backButton;
     @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +25,7 @@ public class AboutMe extends AppCompatActivity {
         setContentView(R.layout.activity_about_me);
         Bundle bundle = getIntent().getExtras();
         String name = bundle.getString("name");
+        backButton = findViewById(R.id.back_button);
 
         try {
             JSONObject jsonObject=new JSONObject(loadJsonFile());
@@ -45,6 +52,13 @@ public class AboutMe extends AppCompatActivity {
         } catch (JSONException | IOException e) {
             e.printStackTrace();
         }
+
+        backButton.setOnClickListener(new AdapterView.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
     }
 
     public String loadJsonFile() throws IOException {
