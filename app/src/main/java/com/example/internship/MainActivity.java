@@ -82,10 +82,5 @@ public class MainActivity extends AppCompatActivity {
         json = new String(byteArray, "UTF-8");
         return json;
     }
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(MainActivity.this, MainActivity.class);
-        startActivity(intent);
-        finish();
-    }
+
 }
