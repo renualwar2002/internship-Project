@@ -1,5 +1,15 @@
 {"studentdetails":[
   {
+    "naanmudhalvanid":"au910719205009",
+    "name":"Joffin Joel J",
+    "collegename": "K.L.N COLLEGE OF INFORMATION TECHNOLOGY",
+    "standard": "B.Tech(INFORMATION TECHNOLOGY)",
+    "age": "22",
+    "dob": "16.12.2001",
+    "address": "MADURAI",
+    "mobilenumber": "9751749717"
+  },
+  {
     "naanmudhalvanid":"au910719205018",
     "name":"Rajeshwaran P I",
     "collegename": "K.L.N COLLEGE OF INFORMATION TECHNOLOGY",
@@ -8,6 +18,16 @@
     "dob": "25.08.2001",
     "address": "1- PALAM STATION ROAD, SELLUR, MADURAI",
     "mobilenumber": "7667339136"
+  },
+  {
+    "naanmudhalvanid":"au910719205022",
+    "name":"Sivakumar",
+    "collegename": "K.L.N COLLEGE OF INFORMATION TECHNOLOGY",
+    "standard": "B.Tech(INFORMATION TECHNOLOGY)",
+    "age": "22",
+    "dob": "15.03.2001",
+    "address": " MADURAI",
+    "mobilenumber": "7667339133"
   }
 ]
 }

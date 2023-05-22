@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="388dp"
+        android:layout_height="206dp"
+        android:src="@drawable/vig"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.081"
+        tools:ignore="ContentDescription"></ImageView>
+
+    <TextView
+        android:id="@+id/txt_banner"
+        android:layout_width="268dp"
+        android:layout_height="38dp"
+        android:gravity="center_horizontal"
+        android:text="Contact"
+        android:textColor="#FFFFFF"
+        android:textFontWeight="1000"
+        android:textSize="35dp"
+        android:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191"
+        tools:ignore="HardcodedText,PxUsage,SpUsage,TextSizeCheck,UnusedAttribute" />
+
+    <TextView
+        android:id="@+id/txt_up"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="236dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:background="#9C27B0"
+        android:textColor="@color/white"
+        android:textFontWeight="900"
+        android:textSize="20sp"
+        android:padding="100px"
+        app:layout_constraintBottom_toTopOf="@+id/txt_down"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="361dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="324dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Go back"
+        android:gravity="center_horizontal"
+        android:drawableLeft="@drawable/back_last"
+        android:paddingEnd="140dp"
+        android:paddingStart="120dp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_down"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/txt_down"
+        android:layout_width="266dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="Nila Apps Project"
+        android:textColor="#7300FF"
+        android:textFontWeight="1000"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.975"
+        tools:ignore="HardcodedText,PxUsage,SpUsage,TextSizeCheck,UnusedAttribute" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
