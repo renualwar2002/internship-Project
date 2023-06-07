@@ -1,14 +1,14 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"1",
-    "name":"Test",
-    "collegename": "xyx arts and college",
-    "standard": "B.sc(computer science)",
-    "email":"test@gmail.com",
-    "age": "19",
-    "dob": "26.04.2003",
-    "address": "Chennai",
-    "mobilenumber": "9962416758"
+    "naanmudhalvanid":"211519106021",
+    "name":"Boobu Sahithi",
+    "collegename": "Panimalar institute of technology",
+    "standard": "Electronics and communication engineering",
+    "email":"sahithibobbu@gmail.com",
+    "age": "21",
+    "dob": "13.03.2003",
+    "address": "Tirupati,AP",
+    "mobilenumber": "6305300192"
   }
 ]
 }
