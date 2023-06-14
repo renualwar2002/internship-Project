@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -17,6 +18,8 @@ public class academic extends AppCompatActivity {
 
     Button btnViewPhoto;
     ImageView image_view;
+
+    ImageButton imageButton;
     //Button button1,button2,button3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +31,7 @@ public class academic extends AppCompatActivity {
         txt_banner = findViewById(R.id.txt_banner);
         txt_down = findViewById(R.id.txt_down);
         btnViewPhoto = findViewById(R.id.button1);
+        imageButton = findViewById(R.id.imageButton2);
 
 
         textViewDetails = findViewById(R.id.txt_up);
@@ -36,6 +40,11 @@ public class academic extends AppCompatActivity {
         // display the string into textView
         textViewDetails.setText(details);
         btnViewPhoto.setOnClickListener(v -> {
+            startActivity(new Intent(getApplicationContext(), photoView.class));
+            finish();
+        });
+
+        imageButton.setOnClickListener(v -> {
             startActivity(new Intent(getApplicationContext(), photoView.class));
             finish();
         });
