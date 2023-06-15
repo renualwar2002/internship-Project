@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 public class AboutMeActivity extends AppCompatActivity {
 
+
     private Button aboutMeButton;
     private Button academicButton;
     private Button contactMeButton;
