@@ -9,18 +9,16 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        style="@style/Widget.AppCompat.ImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="A tiny Android icon"
-        android:minWidth="32dp"
-        android:minHeight="32dp"
-        android:src="@drawable/back_last"
-        app:tint="#ff0000"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="0dp"
-        tools:src="@drawable/back_last" />
+        android:layout_marginStart="5dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/bottom_sheet_behavior"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/back_last"
+        app:tint="#100000"
+        tools:srcCompat="@drawable/back_last" />
 
     <ImageView
         android:id="@+id/imageView"
