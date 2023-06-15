@@ -20,6 +20,9 @@ public class photoView extends AppCompatActivity {
     private TextView nameTextView;
     private Button aboutButton, academicButton, contactButton, mainButton;
 
+    ImageButton imageButton;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +35,7 @@ public class photoView extends AppCompatActivity {
         academicButton = findViewById(R.id.button2);
         contactButton = findViewById(R.id.button3);
         mainButton = findViewById(R.id.button4);
+        imageButton = findViewById(R.id.imageButton5);
 
         String detailsString = getIntent().getStringExtra("details");
 
@@ -59,6 +63,11 @@ public class photoView extends AppCompatActivity {
                 String formattedDetails3 = String.format(Locale.getDefault(), "Name: %s\n\nAddress: %s\n\nMobile number: %s", name, address, mobilenumber);
                 contactButton.setOnClickListener(v -> startNewActivity(Contact.class, formattedDetails3));
                 mainButton.setOnClickListener(view -> {
+                    Intent intent = new Intent(photoView.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                });
+                imageButton.setOnClickListener(view -> {
                     Intent intent = new Intent(photoView.this, MainActivity.class);
                     startActivity(intent);
                     finish();

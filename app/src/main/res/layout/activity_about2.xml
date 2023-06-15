@@ -96,17 +96,19 @@
         tools:ignore="HardcodedText,PxUsage,SpUsage,TextSizeCheck,UnusedAttribute" />
 
         <ImageButton
-
-          android:layout_width="wrap_content"
-
-          android:layout_height="wrap_content"
-
-          android:contentDescription="A tiny Android icon"
-
-          android:src="@drawable/baseline_android_24"
-          style="@style/Widget.AppCompat.ImageButton"
-
-          app:tint="#ff0000" />
+        android:id="@+id/imageButton"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="A tiny Android icon"
+        android:minWidth="32dp"
+        android:minHeight="32dp"
+        android:src="@drawable/back_last"
+        app:tint="#ff0000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:src="@drawable/back_last" />
 
    
 
