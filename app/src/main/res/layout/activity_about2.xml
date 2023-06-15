@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".About">
+    
 
     <ImageView
         android:id="@+id/imageView"
@@ -94,24 +95,19 @@
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="HardcodedText,PxUsage,SpUsage,TextSizeCheck,UnusedAttribute" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        style="@style/Widget.AppCompat.ImageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="358dp"
-        android:layout_marginBottom="8dp"
-        android:backgroundTint="#FFF7F7"
-        android:contentDescription="@string/appbar_scrolling_view_behavior"
-        app:layout_constraintBottom_toTopOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/back_last"
-        app:tint="#0E0D0D"
-        tools:srcCompat="@drawable/back_last"
-        tools:visibility="visible"
-        tools:ignore="VisualLintBounds" />
+        <ImageButton
+
+          android:layout_width="wrap_content"
+
+          android:layout_height="wrap_content"
+
+          android:contentDescription="A tiny Android icon"
+
+          android:src="@drawable/baseline_android_24"
+          style="@style/Widget.AppCompat.ImageButton"
+
+          app:tint="#ff0000" />
+
+   
 
 </androidx.constraintlayout.widget.ConstraintLayout>
