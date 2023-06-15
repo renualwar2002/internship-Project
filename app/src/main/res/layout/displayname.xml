@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
 
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+<TextView
     android:id="@+id/label"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:padding="10dip"
-    android:textSize="16dip"
+    android:textAlignment="center"
     android:textColor="@color/black"
-    android:textStyle="bold" >
-</TextView>
+    android:textSize="20sp"
+    android:textStyle="bold|italic"
+    tools:text="@tools:sample/lorem" />
+
+
+
+</LinearLayout>

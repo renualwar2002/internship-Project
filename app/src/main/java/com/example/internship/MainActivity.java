@@ -2,9 +2,14 @@ package com.example.internship;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -27,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         listview=(ListView) findViewById(R.id.mobile_list);
 
+
         try {
             JSONObject jsonObject=new JSONObject(loadJsonFile());
             JSONArray jsonArray=jsonObject.getJSONArray("studentdetails");
@@ -37,13 +43,27 @@ public class MainActivity extends AppCompatActivity {
                 String name=obj.getString("name");
                 listViewValues.add(name);
             }
-            ArrayAdapter adapter = new ArrayAdapter<String>(this, R.layout.displayname, listViewValues);
+            ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.displayname, R.id.label,listViewValues);
             listview.setAdapter(adapter);
+            listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    Toast.makeText(MainActivity.this, "You clicked", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this, AboutMeActivity.class);
+                    startActivity(intent);
+
+                }
+            });
+
+
+
+
         } catch (JSONException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
     public String loadJsonFile() throws IOException {

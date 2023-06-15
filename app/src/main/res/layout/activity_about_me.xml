@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="19dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/my_profile_picture" />
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-52dp"
+        android:text="Mohamed Anas"
+        android:textColorHighlight="#E6E2E2"
+        android:textSize="34sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_textview"
+        android:layout_marginTop="47dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/about_me_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/darker_gray"
+            android:text="About Me"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/academic_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/darker_gray"
+            android:text="Academic"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/contact_me_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="Contact Me"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>
