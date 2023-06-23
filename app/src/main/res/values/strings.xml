@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Internship</string>
+    <string name="welcome">WELCOME</string>
+    <string name="have_a_nice_day">Have a Nice Day !</string>
+    <string name="nila_apps_internship">NILA APPS INTERNSHIP</string>
+    <string name="a_k_renuha_nivetha">A.K.RENUHA NIVETHA</string>
+    <string name="name_a_k_renuha_nivetha">NAME: A.K.Renuha Nivetha</string>
+    <string name="nan_mudhalvan_id_au950019106034">Nan-Mudhalvan-ID : au950019106034</string>
+    <string name="dob_09_01_2002">DOB : 09.01.2002</string>
+    <string name="email_renualwar912002_gmail_com">EMAIL : renualwar912002@gmail.com</string>
 </resources>
