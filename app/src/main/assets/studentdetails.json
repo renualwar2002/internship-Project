@@ -1,14 +1,13 @@
 {"studentdetails":[
   {
-    "naanmudhalvanid":"950019106034",
-    "name":"A.K.Renuha Nivetha",
-    "collegename": "Anna University regional Campus Tirunelveli",
-    "standard": "Electronics and communication engineering",
-    "email":"renualwar912002@gmail.com",
-    "age": "21",
-    "dob": "09.01.2002",
-    "address": "mahraja nagar,Tirunelveli",
-    "mobilenumber": "7373127445"
+    "naanmudhalvanid":"au620819104050",
+    "name":"Keshava Kumar J",
+    "collegename": "Gnanamani college of Technology",
+    "standard": "B.E(computer science and Engineering)",
+    "age": "20",
+    "dob": "28.06.2002",
+    "address": "8/43,pub School(opp),EB office street,Mallasamudram,Namakkal",
+    "mobilenumber": "8973326951"
   }
 ]
 }
